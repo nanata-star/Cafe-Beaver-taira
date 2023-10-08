@@ -56,7 +56,7 @@ h2.section-title {
   background-color: #fff;
   opacity: .9;
   border-radius: 25px;
-  width: 50%;
+  width: 500px;
 }
 
 #header .l-nav>ul>li>a {
@@ -64,6 +64,29 @@ h2.section-title {
   font-size: 18px;
   line-height: 55px;
   height: 55px;
+  color: var(--color_txt1);
+  position: relative;
+}
+
+#header .l-nav>ul>li>a:hover {
+  color: var(--color_txt2);
+  display: block;
+}
+
+#header .l-nav>ul>li>a::after {
+ content: "";
+ width: 110%;
+ height: 3px;
+ background-color: var(--color_txt2);
+ border-radius: 25px;
+ position: absolute;
+ top: 42px;
+ left: -5%;
+ display: none;
+}
+
+#header .l-nav>ul>li>a:hover::after {
+  display: block;
 }
 
 #header h1 {
