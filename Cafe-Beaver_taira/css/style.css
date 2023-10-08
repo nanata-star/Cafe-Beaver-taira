@@ -37,7 +37,7 @@ h2.section-title {
 /* #header */
 #header {
   height: 100vh;
-  background-image: url(/img/shop-img.webp);
+  background-image: url(../img/shop-img.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,7 @@ h2.section-title {
   display: block;
   width: 1224px;
   height: 864px;
-  background: url(/img/maru01.png) no-repeat;
+  background: url(../img/maru01.png) no-repeat;
   left: -30px;
   top: -230px;
   z-index: -10;
@@ -133,7 +133,7 @@ h2.section-title {
 
 #concept .readmore_btn{
   display: block;
-  background: url(/img/read-more.png) no-repeat;
+  background: url(../img/read-more.png) no-repeat;
   width: 200px;
   height: 74px;
   margin: 0 auto;
@@ -147,7 +147,7 @@ h2.section-title {
 /* #menu */
 .parallax{
   height: 300px;
-  background-image: url('/img/coffee.jpg');
+  background-image: url('../img/coffee.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -155,13 +155,13 @@ h2.section-title {
 
 .title-bg {
   line-height: 300px;
-  background: url(/img/h2-back.png) no-repeat;
+  background: url(../img/h2-back.png) no-repeat;
   background-position: center;
 }
 
 #menu .menu_wrap {
   display: flex;
-  background: url(/img/menu-back.png) no-repeat;
+  background: url(../img/menu-back.png) no-repeat;
   background-position: top;
   margin-top: 100px;
   margin-bottom: 250px;
@@ -173,7 +173,7 @@ h2.section-title {
 #menu .menu_wrap::after {
   content: "";
   position: absolute;
-  background: url(/img/menu-center.png);
+  background: url(../img/menu-center.png);
   width: 4px;
   height: 1272px;
   left: 50%;
@@ -231,7 +231,7 @@ h2.section-title {
 
 /* #access */
 .parallax.access-pl{
-  background-image: url('/img/nikotama.jpg');
+  background-image: url('../img/nikotama.jpg');
 }
 
 #access .access-wrap {
@@ -248,7 +248,7 @@ h2.section-title {
   width: 1133px;
   height: 895px;
   display: block;
-  background: url(/img/maru02.png) no-repeat;
+  background: url(../img/maru02.png) no-repeat;
   top: -100px;
   left: 42px;
   z-index: -10;
